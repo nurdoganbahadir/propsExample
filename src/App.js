@@ -1,9 +1,10 @@
-
-import './App.css';
+import Dog from "./components/Dog";
 
 function App() {
   return (
-    <h1>JSX-Components</h1>
+    <div className="App">
+      <Dog name="Siberian Husky" color="gray and white" />
+    </div>
   );
 }
 
